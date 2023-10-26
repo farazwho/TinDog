@@ -1,9 +1,10 @@
-#title {
-  background-color: #ff4c68;
+body {
+  font-family: 'Montserrat-thin', sans-serif;
 }
 
-#nav-logo {
-  padding: 0% 1%;
+#title {
+  background-color: #ff4c68;
+  color: white;;
 }
 
 h1{
@@ -14,4 +15,24 @@ h1{
 
 .container-fluid {
   padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+#nav-logo {
+  padding: 0% 1%;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
 }
