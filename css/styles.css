@@ -3,10 +3,6 @@ body {
   
 }
 
-/* * {
-  outline: 2px solid black;
-} */
-
 h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 3.2rem;
@@ -72,6 +68,18 @@ h3 {
   width: 20%;
   position: absolute;
   right: 24%;
+  }
+
+  @media (max-width: 1028px) {
+
+    #title {
+      text-align: center;
+    }
+    .title-image {
+      position: static;
+      width: 60%;
+      transform: rotate(0);
+    }
   }
 
 /* Features section */
@@ -144,3 +152,27 @@ p {
 .pricing-column {
   padding: 3% 2%;
 }
+
+#cta {
+  background-color: #ff4c68;
+  
+  text-align: center;
+  padding: 7% 15%;
+  color: white;
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer section */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/* * {
+  outline: 2px solid black;
+} */
