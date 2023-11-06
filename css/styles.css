@@ -41,11 +41,10 @@ p {
   color: black;
 }
 
-/* Title Section */
+/* Navigation Bar */
 
-#title .container-fluid {
-  padding: 3% 15% 7%;
-  text-align: left;
+.navbar {
+  padding: 0 0 4.5rem;
 }
 
 .navbar-brand{
@@ -54,17 +53,24 @@ p {
   font-weight: bold;
 }
 
-.navbar {
-  padding: 0 0 4.5rem;
-}
-
 .nav-item {
   padding: 0 18px;
   font-size: 1.2rem;
   font-family: 'Montserrat-Light', sans-serif;
 }
 
-/* Title Image */
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
 
 .title-image {
   /* width: 60%; */
@@ -85,12 +91,6 @@ p {
       transform: rotate(0);
     }
   }
-
-/* Download button */
-
-.download-button {
-  margin: 5% 3% 5% 0;
-}
 
 /* Features section */
 
